@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(90deg, rgb(0, 132, 150), rgb(0, 51, 99), rgb(0, 1, 78), rgb(0, 51, 99), rgb(0, 132, 150));
+      
+  }
+     
+    #W{
+      color: #1abc9c;
+  }
+    #R{
+      color: #f1c40f;
+  }
+    #L{
+      color: #34495e;
+  }
+    #P{
+      color: red;
+  }
+    #p{
+      color: white;
+  }
+    #Y{
+      color: blue;
+  }
+
+  h1 {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 60px;
+    font-family:  sans-serif;
+    line-height: 2;
+    letter-spacing: 4px;
+
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+ 
+    display: block;
+    margin: 0;
+    margin-right: 38%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #116838;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    float: right;
+
+  }
+     
+  #Reset{
+    display: block;
+    margin: 0;
+    margin-left: 38%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #116838;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    float: left;
+
+
+  }
+
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif ;
+      border: 2px solid black;
+      font-weight: bold;
+      padding: 10px;
+      margin: 10px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 5px;
+  }
+     
+  .row{
+      margin-bottom: 10px;
+      border-radius: 10px;
+      text-align: center;
+      
+  }
+  .grid{
+   margin-bottom: 10px;
+   border-radius: 10px;
+   text-align: center;
+    
+ 
+  }
+     
+  .input-area{
+      margin: 30px;
+
+  }
